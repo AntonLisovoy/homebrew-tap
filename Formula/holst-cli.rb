@@ -1,22 +1,22 @@
 class HolstCli < Formula
   desc "CLI for the Holst collaborative whiteboard"
   homepage "https://github.com/AntonLisovoy/holst-cli"
-  version "1.2.0"
+  version "1.2.1"
 
   # Only the two published targets get a url. An unsupported platform - Intel
   # macOS, ARM Linux - then fails at `brew install` with no available download,
   # instead of installing a binary that dies with "Bad CPU type" on first run.
   on_macos do
     on_arm do
-      url "https://github.com/AntonLisovoy/holst-cli/releases/download/v1.2.0/holst-cli-1.2.0-macos-arm64.tar.gz"
-      sha256 "f2737b5f3601a2d23284210867901a792e0967c61cd14e2d602a08954b1da1b3"
+      url "https://github.com/AntonLisovoy/holst-cli/releases/download/v1.2.1/holst-cli-1.2.1-macos-arm64.tar.gz"
+      sha256 "b60373d61c21e009ff2e497a97539aee223d58b95acbe7a1ec02b69b4e262142"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/AntonLisovoy/holst-cli/releases/download/v1.2.0/holst-cli-1.2.0-linux-x86_64.tar.gz"
-      sha256 "097d33d639e7697786f0b46f22633093a5531c562505c50dec9e61dfc0354842"
+      url "https://github.com/AntonLisovoy/holst-cli/releases/download/v1.2.1/holst-cli-1.2.1-linux-x86_64.tar.gz"
+      sha256 "a670478211c8cf721a631a916f3c2eaa53539dd075d8a3afc09c3323cab3062e"
     end
   end
 
