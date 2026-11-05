@@ -1,7 +1,7 @@
 class YandexCli < Formula
   desc "Stateful CLI for Yandex Tracker and Yandex Wiki"
   homepage "https://github.com/AntonLisovoy/yandex-cli"
-  version "1.5.0"
+  version "1.6.0"
   license "Apache-2.0"
 
   # Only the two published targets get a url. An unsupported platform - Intel
@@ -9,15 +9,15 @@ class YandexCli < Formula
   # instead of installing a binary that dies with "Bad CPU type" on first run.
   on_macos do
     on_arm do
-      url "https://github.com/AntonLisovoy/yandex-cli/releases/download/v1.5.0/yandex-cli-1.5.0-macos-arm64.tar.gz"
-      sha256 "ef11513e250d903d19356c27c0cd1c5d68f19b519935e16dae315ca4fcbe5581"
+      url "https://github.com/AntonLisovoy/yandex-cli/releases/download/v1.6.0/yandex-cli-1.6.0-macos-arm64.tar.gz"
+      sha256 "57102b9e3f6d20a517b00946ffce1c4c6ac05ba2a736eaa9bf88f6706f3e87c1"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/AntonLisovoy/yandex-cli/releases/download/v1.5.0/yandex-cli-1.5.0-linux-x86_64.tar.gz"
-      sha256 "705a4e7e6b8f2d91ecf6c59c812199d8665e65c4d46e2caf051e136495f2d851"
+      url "https://github.com/AntonLisovoy/yandex-cli/releases/download/v1.6.0/yandex-cli-1.6.0-linux-x86_64.tar.gz"
+      sha256 "a6e7d0fff9f801adf30f79283571e86f448a81fb98f3176dba7fe4b421b0e2a4"
     end
   end
 
